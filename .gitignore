@@ -1,0 +1,22 @@
+# Golang
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Binaries for programs and plugins
+*.o
+*.a
+*.out
+*.pot
+*.mo
+
+# Ignore the local binary directory
+/bin/
+/vendor/
+
+# Docker
+.DS_Store
+docker-compose.override.yml
+.dockerignore
